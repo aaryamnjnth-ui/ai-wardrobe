@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.log
+uploads/*
+!uploads/.gitkeep
+src/database/*.db
+src/database/*.db-journal
+src/database/*.db-wal
+src/database/*.db-shm
