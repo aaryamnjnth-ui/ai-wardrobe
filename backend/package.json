@@ -1,0 +1,33 @@
+{
+  "name": "ai-wardrobe-backend",
+  "version": "1.0.0",
+  "description": "Production-grade Express.js backend for AI Wardrobe Management System with SQLite and Gemini AI",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "wardrobe",
+    "ai",
+    "express",
+    "sqlite",
+    "gemini",
+    "fashion",
+    "outfit-recommendation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0"
+  }
+}
